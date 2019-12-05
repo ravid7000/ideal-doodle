@@ -1,0 +1,1 @@
+void pyrmid(int);
