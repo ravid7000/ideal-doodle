@@ -19,5 +19,5 @@ void floatingPoints() {
 }
 
 int main() {
-  floatingPoints();
+  pointer();
 }
