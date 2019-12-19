@@ -65,3 +65,34 @@ Output: 5
 ```
 
 [Solution](https://www.geeksforgeeks.org/kth-smallest-element-in-the-array-using-constant-space-when-array-cant-be-modified/)
+
+
+### Find largest multiplication pair in the give list
+```
+Input:
+list = [-100, 5, 100, 300, -400, 90, 80]
+
+Output:
+[-100, -400]
+```
+
+### Check if input string is valid for the following rules
+A string is valid:
+* If first character appears N times then all characters should appear N times
+* If all characters except one appears N times and one character appear N + 1 times.
+Otherwise string is not valid
+```
+Input:
+strA = 'abc'
+strB = 'xxyyzz'
+strC = 'yyzyxzx'
+strD = 'eebcbccee'
+strE = 'ddeeecccpp'
+
+Output:
+strA is valid
+strB is valid
+strC is valid
+strD is not valid
+strE is not valid
+```
