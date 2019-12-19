@@ -1,0 +1,30 @@
+{
+  "name": "ideal-doodle",
+  "version": "0.0.1",
+  "description": "An ideal casestudy",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravid7000/ideal-doodle.git"
+  },
+  "keywords": [
+    "interview",
+    "preparation"
+  ],
+  "author": "Ravi Dhiman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravid7000/ideal-doodle/issues"
+  },
+  "homepage": "https://github.com/ravid7000/ideal-doodle#readme",
+  "dependencies": {
+    "highlight.js": "^9.17.1",
+    "marked": "^0.8.0"
+  }
+}
