@@ -5,6 +5,7 @@ const marked = require('marked');
 const dirName = './src';
 const buildDir = './build';
 const templatePath = './template/base.html';
+const sidebarPath = './template/sidebar.html';
 const ext = /.md$/
 
 let templateContent;
@@ -73,7 +74,7 @@ function parseFileContent(filename, content, curr, total) {
 }
 
 function logPercent(curr, total) {
-    const percent = ++curr / total * 100;
+    const percent = total - ++curr / total * 100;
     console.log(`Complete: ${percent}%`);
     if (percent === 100) {
         console.log('\nDone !!!');

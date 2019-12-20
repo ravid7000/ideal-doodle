@@ -80,6 +80,7 @@ Output:
 A string is valid:
 * If first character appears N times then all characters should appear N times
 * If all characters except one appears N times and one character appear N + 1 times.
+
 Otherwise string is not valid
 ```
 Input:
